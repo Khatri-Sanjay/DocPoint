@@ -1,0 +1,34 @@
+/* footer.component.css */
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #fff;
+}
+
+.company-link {
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.company-link:hover {
+  text-decoration: underline;
+}
+
+.text-yellow {
+  color: #ffcc00;
+}
+
+.text-blue {
+  color: #0e5fd8;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .background-color {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}
