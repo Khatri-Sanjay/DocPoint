@@ -1,14 +1,6 @@
 import {trigger, transition, style, animate, keyframes} from '@angular/animations';
 
 /**
- * Author: Sanjay Khatri
- * Date: 2024-10-10
- *
- * This file contains various Angular animations used for enhancing UI transitions
- * in the application. Each animation is defined using the Angular animations API.
- */
-
-/**
  * 1. Scale Up Animation
  * This animation scales an element up from nothing.
  */

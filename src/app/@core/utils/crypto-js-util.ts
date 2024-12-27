@@ -1,14 +1,10 @@
 import CryptoJS from 'crypto-js';
-import {environment} from '../../../environments/environment';
+import {environment} from '../../../environment/environment';
 
 export class CryptoJsUtil {
 
   /**
    * Utility class for handling encryption and decryption using CryptoJS.
-   *
-   * @author Sanjay Khatri
-   * @date 10-08-2024
-   * @time 03:58 PM
    */
 
   /**

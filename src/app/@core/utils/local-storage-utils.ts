@@ -1,7 +1,6 @@
 import { CryptoJsUtil } from './crypto-js-util';
-import { environment } from '../../../environments/environment';
 import { ObjectUtil } from './object-util';
-import {StageModel} from '../model/stage.model';
+import {environment} from '../../../environment/environment';
 
 export class LocalStorageUtil {
   /**
@@ -80,6 +79,4 @@ export class LocalStorage {
   token_type: any;
   expires_in: any;
   sessionId: any;
-  stage_data: StageModel = new StageModel();
-  walletToken: any;
 }

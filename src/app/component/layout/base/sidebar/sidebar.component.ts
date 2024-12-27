@@ -18,29 +18,24 @@ export class SidebarComponent{
 
   menuItems = [
     {
-      icon: 'bi-person-plus',
-      label: 'User Management',
+      icon: 'bi-speedometer2',
+      label: 'Dashboard',
+      path: '/base/dashboard'
+    },
+    {
+      icon: 'bi-people-fill',
+      label: 'Users',
       path: '/layout/user'
     },
     {
-      icon: 'bi-gear',
-      label: 'Loan Configuration',
-      path: '/layout/loan-config'
+      icon: 'bi bi-heart-pulse',
+      label: 'Doctors',
+      path: '/doctors'
     },
     {
-      icon: 'bi-file-earmark-text',
-      label: 'Human Resources',
-      path: '/layout/human-resources'
-    },
-    {
-      icon: 'bi-people',
-      label: 'Employee',
-      path: '/layout/employees'
-    },
-    {
-      icon: 'bi-card-checklist',
-      label: 'Loan Status',
-      path: '/layout/loan-status'
+      icon: 'bi-hospital',
+      label: 'Hospitals',
+      path: '/hospitals'
     }
   ];
 

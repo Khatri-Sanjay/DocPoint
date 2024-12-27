@@ -9,7 +9,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class FooterComponent implements OnInit {
   date: any;
-  text: string = 'SB Solutions Pvt. Ltd.';
+  text: string = 'Designed & Powered by Sanjay Khatri |';
   displayedText: string = '';
   typingSpeed: number = 100;
 
